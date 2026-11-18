@@ -74,7 +74,7 @@ public class KeepAliveService extends Service {
                 new Intent(this, ScanActivity.class),
                 PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
 
-        b.setContentTitle("ZCode Remote")
+        b.setContentTitle("ZCode App")
                 .setContentText("远程控制连接保持中，点按返回")
                 .setSmallIcon(R.drawable.ic_launcher_fg)
                 .setContentIntent(contentIntent)

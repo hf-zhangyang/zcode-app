@@ -3,7 +3,7 @@
     <color name="bg">#FF0B0E14</color>
     <color name="icon_bg">#FF101828</color>
     <color name="accent">#FF22C55E</color>
-    <string name="app_name">ZCode Remote</string>
+    <string name="app_name">ZCode App</string>
 
     <style name="AppTheme" parent="@android:style/Theme.Material.NoActionBar">
         <item name="android:windowBackground">@color/bg</item>
