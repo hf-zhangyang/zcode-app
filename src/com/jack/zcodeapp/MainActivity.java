@@ -1,4 +1,4 @@
-package com.jack.zremote;
+package com.jack.zcodeapp;
 
 import android.Manifest;
 import android.annotation.SuppressLint;

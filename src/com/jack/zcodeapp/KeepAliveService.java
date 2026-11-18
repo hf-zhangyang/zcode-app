@@ -1,4 +1,4 @@
-package com.jack.zremote;
+package com.jack.zcodeapp;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -20,7 +20,7 @@ public class KeepAliveService extends Service {
 
     static final String CHANNEL_ID = "keepalive";
     static final int NOTIFICATION_ID = 1;
-    static final String ACTION_STOP = "com.jack.zremote.STOP";
+    static final String ACTION_STOP = "com.jack.zcodeapp.STOP";
 
     private PowerManager.WakeLock wakeLock;
 
@@ -52,7 +52,7 @@ public class KeepAliveService extends Service {
 
         if (wakeLock == null) {
             PowerManager pm = (PowerManager) getSystemService(POWER_SERVICE);
-            wakeLock = pm.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, "zremote:keepalive");
+            wakeLock = pm.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, "zcodeapp:keepalive");
             wakeLock.setReferenceCounted(false);
             wakeLock.acquire();
         }

@@ -8,7 +8,7 @@ ZCode 电脑端会显示一个配对二维码（内容形如
 ## 成品
 
 - `ZCodeRemote.apk` —— 约 250 KB（含 ZXing 扫码库），自签名 APK
-- 包名 `com.jack.zremote`，最低 Android 8.0（API 26），target API 36
+- 包名 `com.jack.zcodeapp`，最低 Android 8.0（API 26），target API 36
 - 已在本地模拟器（Medium_Phone_API_36.1）实测：主界面、扫码页、登录流程、返回导航均无崩溃
 
 ## 功能
