@@ -1,7 +1,7 @@
 # Build output
 build/
-ZCodeRemote.apk
-ZCodeRemote.apk.idsig
+ZCodeApp.apk
+ZCodeApp.apk.idsig
 
 # Signing secrets — NEVER commit these
 zremote.keystore

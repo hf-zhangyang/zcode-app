@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Build ZCodeRemote.apk without Gradle, using the local Android SDK directly.
+# Build ZCodeApp.apk without Gradle, using the local Android SDK directly.
 set -euo pipefail
 
 PROJ="$(cd "$(dirname "$0")" && pwd)"          # POSIX path for bash tools
@@ -94,8 +94,8 @@ fi
 "$BT/apksigner.bat" sign \
     --ks "$WPROJ/zremote.keystore" --ks-key-alias zremote \
     --ks-pass "pass:$KS_PASS" --key-pass "pass:$KEY_PASS" \
-    --out "$WPROJ/ZCodeRemote.apk" "$WBUILD/app.aligned.apk"
+    --out "$WPROJ/ZCodeApp.apk" "$WBUILD/app.aligned.apk"
 
-cmd //c "$(cygpath -w "$BT/apksigner.bat")" verify --print-certs "$WPROJ/ZCodeRemote.apk" | head -4
-ls -la "$PROJ/ZCodeRemote.apk"
-echo "DONE -> $WPROJ/ZCodeRemote.apk"
+cmd //c "$(cygpath -w "$BT/apksigner.bat")" verify --print-certs "$WPROJ/ZCodeApp.apk" | head -4
+ls -la "$PROJ/ZCodeApp.apk"
+echo "DONE -> $WPROJ/ZCodeApp.apk"

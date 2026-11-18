@@ -7,7 +7,7 @@ ZCode 电脑端会显示一个配对二维码（内容形如
 
 ## 成品
 
-- `ZCodeRemote.apk` —— 约 250 KB（含 ZXing 扫码库），自签名 APK
+- `ZCodeApp.apk` —— 约 250 KB（含 ZXing 扫码库），自签名 APK
 - 包名 `com.jack.zcodeapp`，最低 Android 8.0（API 26），target API 36
 - 已在本地模拟器（Medium_Phone_API_36.1）实测：主界面、扫码页、登录流程、返回导航均无崩溃
 
@@ -48,8 +48,8 @@ ZCode 电脑端会显示一个配对二维码（内容形如
 ## 手机上安装
 
 1. 手机和电脑连同一个 Wi-Fi；
-2. 手机浏览器打开：`http://192.168.1.6:8899/ZCodeRemote.apk`（电脑上已开着下载服务），
-   或者用微信/QQ 把 `ZCodeRemote.apk` 传到手机；
+2. 手机浏览器打开：`http://192.168.1.6:8899/ZCodeApp.apk`（电脑上已开着下载服务），
+   或者用微信/QQ 把 `ZCodeApp.apk` 传到手机；
 3. 点开下载好的 APK → 允许"安装未知来源应用" → 安装（已装旧版直接覆盖升级）；
 4. 首次启动授予相机权限，扫码即可。
 
