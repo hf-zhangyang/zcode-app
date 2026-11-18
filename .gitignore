@@ -1,0 +1,12 @@
+# Build output
+build/
+ZCodeRemote.apk
+ZCodeRemote.apk.idsig
+
+# Signing secrets — NEVER commit these
+zremote.keystore
+signing.local
+
+# OS junk
+.DS_Store
+Thumbs.db

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Bold "Z" glyph, kept inside the 66dp adaptive-icon safe zone -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M38,40 L70,40 L70,49 L51,66 L70,66 L70,76 L38,76 L38,67 L57,50 L38,50 Z" />
+</vector>
